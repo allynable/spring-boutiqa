@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.boutiqa.auth"},{"l":"com.boutiqa.config"},{"l":"com.boutiqa.controller"},{"l":"com.boutiqa.entity"},{"l":"com.boutiqa.repository"},{"l":"com.boutiqa.service"}]

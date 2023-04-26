@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+ 	background-color: #F2F2F2;
+}
+
+.boutiqa-logo{
+	width: 30px;
+	height: 30px;
+}
+
+.sidebar{
+  min-height: 100vh;
+}
+
+.carousel button{
+	opacity: 0 !important;
+}
+
+.carousel button:hover + .ico{
+	opacity: 1 !important;
+}
+
+.is-invalid{
+	border-color: red;
+}
+
+/* Add Bootstrap classes to jQuery UI accordion headers */
+.ui-accordion-header {
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add Bootstrap classes to jQuery UI accordion content */
+.ui-accordion-content {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+/* Change border color of jQuery UI accordion headers */
+.ui-accordion-header {
+  border-color: #fff;
+}
+
+.product-card{
+    height: 350px;
+}
+
+.product-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.table thead th,
+.table tbody td {
+    max-width: 250px;
+}
